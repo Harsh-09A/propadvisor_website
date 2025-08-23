@@ -78,6 +78,7 @@ Table of contents
   --camarone: #20642b;
   --seal-brown: #0e0708;
   --Wasabi: #8ea63a;
+  --prop-theme: #deb269
 }
 /* ===================================
     03. Reset
@@ -3649,6 +3650,9 @@ textarea:focus,
 }
 .bg-Wasabi {
   background-color: var(--Wasabi);
+}
+.bg-prop-theme {
+  background-color: var(--prop-theme);
 }
 /* Gradient background color */
 .bg-gradient-light-pink-light-orange {
