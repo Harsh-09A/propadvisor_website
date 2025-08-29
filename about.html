@@ -29,14 +29,18 @@
     <link rel="stylesheet" href="css/style.css" />
     <link rel="stylesheet" href="css/responsive.css" />
     <link rel="stylesheet" href="demos/business/business.css" />
+    <link rel="stylesheet" href="css/my-styles.css" />
   </head>
-  <body data-mobile-nav-style="classic">
+  <body
+    data-mobile-nav-trigger-alignment="right"
+    data-mobile-nav-style="modern"
+    data-mobile-nav-bg-color="#1d1d1d">
     <!-- start header -->
     <header>
       <!-- start navigation -->
       <nav
         class="navbar navbar-expand-lg header-transparent bg-transparent header-reverse"
-        data-header-hover="light">
+        data-header-hover="dark">
         <div class="container-fluid">
           <div class="col-auto col-xxl-3 col-lg-2 me-lg-0 me-auto">
             <a class="navbar-brand" href="index.html">
@@ -46,13 +50,13 @@
                 alt=""
                 class="default-logo" />
               <img
-                src="images/our-img/PropAdvisor_Logo_black.png"
-                data-at2x="images/our-img/PropAdvisor_Logo_black.png"
+                src="images/our-img/PropAdvisor_Logo.png"
+                data-at2x="images/our-img/PropAdvisor_Logo.png"
                 alt=""
                 class="alt-logo" />
               <img
-                src="images/our-img/PropAdvisor_Logo_black.png"
-                data-at2x="images/our-img/PropAdvisor_Logo_black.png"
+                src="images/our-img/PropAdvisor_Logo.png"
+                data-at2x="images/our-img/PropAdvisor_Logo.png"
                 alt=""
                 class="mobile-logo" />
             </a>
@@ -150,13 +154,13 @@
                   >
                 </div>
               </div> -->
-              <div class="header-button">
+              <!-- <div class="header-button">
                 <a
                   href=""
                   class="btn btn-very-small btn-transparent-white-light btn-rounded"
                   >Get a quote</a
                 >
-              </div>
+              </div> -->
             </div>
           </div>
         </div>
@@ -167,9 +171,7 @@
     <!-- start page title -->
     <section
       class="pt-0 cover-background ipad-top-space-margin sm-pb-0"
-      style="
-        background-image: url('images/new_imgs/About\ Us\ banner\ \(1920x610\).jpg');
-      ">
+      style="background-image: url('images/our-img/about_head_banner.jpg')">
       <div class="shape-image-animation p-0 w-100 d-none d-md-block">
         <svg
           xmlns="http://www.w3.org/2000/svg"
@@ -210,7 +212,7 @@
     </section>
     <!-- end page title -->
     <!-- start section -->
-    <section id="down-section">
+    <section id="down-section zero_top">
       <div class="container">
         <div class="row align-items-center justify-content-center">
           <div
@@ -260,7 +262,7 @@
               class="fw-600 text-dark-gray ls-minus-2px alt-font sm-w-80 xs-w-100 mx-auto sm-mb-20px">
               Provide advanced business solutions.
             </h3>
-            <p>
+            <p class="about_overflow_text">
               At PropAdvisor, we simplify real estate for developers, families,
               and investors (including NRIs) in Navi Mumbai. Since 2017, we have
               been partnering with developers through exclusive mandates to
@@ -269,6 +271,37 @@
               With strong industry networks, local expertise, and a commitment
               to transparency, we are more than consultants, we are your trusted
               property advisors.
+              <br />
+              <br />
+              We understand that property decisions come with doubts, from
+              project sales challenges for developers to hidden costs and
+              complex paperwork for buyers and investors. At PropAdvisor, we
+              simplify every step of the property journey. With over 22
+              nationalities and 25+ languages represented, we’re committed to
+              making the real estate experience seamless and rewarding.
+              <br />
+              <br />
+              As Navi Mumbai’s trusted partner in Sole Selling and Mandate
+              Services, PropAdvisor brings expertise in sales management and
+              real estate advisory under one roof. Our team of specialists in
+              finance, legal, and real estate ensures projects are executed
+              seamlessly, from budget-friendly homes priced at ₹7 Lakhs to
+              luxury spaces worth ₹28 Crores.
+              <br />
+              <br />
+              Operating across Mumbai and Navi Mumbai, we make property
+              decisions simpler for developers through actionable market
+              insights, and for buyers and investors through a clear and
+              comprehensive approach. Developers gain stronger project
+              positioning, while homebuyers discover spaces that fit their
+              lifestyle.
+              <br />
+              <br />
+
+              For developers, we go beyond sales. We offer actionable market
+              insights into buyer preferences, pricing strategies, and design
+              trends. With PropAdvisor, you don’t just sell projects, you create
+              experiences that buyers value.
             </p>
             <p>
               <strong>
@@ -279,7 +312,7 @@
             </p>
             <a
               href="demo-business-services.html"
-              class="btn btn-large btn-dark-gray btn-box-shadow btn-rounded mt-15px sm-mt-10px"
+              class="btn btn-large btn-gold btn-box-shadow btn-rounded mt-15px sm-mt-10px"
               >Explore Our Services <i class="fa-solid fa-arrow-right"></i
             ></a>
           </div>
@@ -336,7 +369,11 @@
     </section>
     <!-- end section -->
     <!-- start section -->
-    <section class="bg-solitude-blue">
+    <section
+      class=""
+      style="
+        background-image: url(images/Newfolder/black_bg_with_gold_strips.jpg);
+      ">
       <div class="container">
         <div class="row justify-content-center mb-3">
           <div
@@ -346,9 +383,9 @@
               class="bg-white text-uppercase fs-13 ps-25px pe-25px alt-font fw-600 text-base-color lh-40 sm-lh-55 border-radius-100px d-inline-block mb-25px"
               >Our Guiding Vision
             </span>
-            <h3 class="alt-font text-dark-gray fw-600 ls-minus-2px">
-              To redefine Indian real estate by making property decisions
-              profitable for developers and simple for buyers.
+            <h3 class="alt-font text-white fw-600 ls-minus-2px">
+              To Redefine Indian Real Estate By Making Property Decisions
+              Profitable For Developers And Simple For Buyers.
             </h3>
           </div>
         </div>
@@ -358,241 +395,106 @@
           <!-- start fancy text box item -->
           <div class="col-lg-6 col-md-8 fancy-text-box-style-02 mb-30px">
             <div
-              class="feature-box feature-box-left-icon-middle h-100 bg-white hover-box dark-hover border-radius-6px ps-4 pe-4 pt-9 pb-9 box-shadow-extra-large box-shadow-extra-large-hover overflow-hidden">
+              class="feature-box feature-box-left-icon-middle h-100 bg-white hover-box border-radius-6px ps-4 pe-4 pt-9 pb-9 box-shadow-extra-large box-shadow-extra-large-hover overflow-hidden">
               <div
                 class="feature-box-icon ms-40px me-40px lg-ms-15px lg-me-15px">
-                <h2 class="alt-font text-dark-gray fw-700 ls-minus-1px mb-0">
-                  50
-                </h2>
+                <img
+                  src="images/animated-icons/human-resources.gif"
+                  class="h-100px"
+                  alt="" />
               </div>
               <div
                 class="feature-box-content border-start border-color-extra-medium-gray ps-40px pe-40px lg-ps-15px lg-pe-15px last-paragraph-no-margin">
+                <h2 class="alt-font text-dark-gray fw-700 ls-minus-1px mb-0">
+                  50+
+                </h2>
                 <span
                   class="text-dark-gray fw-500 fs-20 xs-fs-18 alt-font ls-minus-05px"
-                  >active clients</span
+                  >Active Clients</span
                 >
-                <p class="text-light-opacity">Lorem ipsum dolor amet</p>
+                <!-- <p class="text-light-opacity">Lorem ipsum dolor amet</p> -->
               </div>
-              <div class="feature-box-overlay bg-base-color"></div>
+              <!-- <div class="feature-box-overlay bg-base-color"></div> -->
             </div>
           </div>
           <!-- end fancy text box item -->
           <!-- start fancy text box item -->
           <div class="col-lg-6 col-md-8 fancy-text-box-style-02 mb-30px">
             <div
-              class="feature-box feature-box-left-icon-middle h-100 bg-white hover-box dark-hover border-radius-6px ps-4 pe-4 pt-9 pb-9 box-shadow-extra-large box-shadow-extra-large-hover overflow-hidden">
+              class="feature-box feature-box-left-icon-middle h-100 bg-white hover-box border-radius-6px ps-4 pe-4 pt-9 pb-9 box-shadow-extra-large box-shadow-extra-large-hover overflow-hidden">
               <div
                 class="feature-box-icon ms-40px me-40px lg-ms-15px lg-me-15px">
-                <h2 class="alt-font text-dark-gray fw-700 ls-minus-1px mb-0">
-                  500
-                </h2>
+                <img
+                  src="images/animated-icons/fans.gif"
+                  class="h-100px"
+                  alt="" />
               </div>
               <div
                 class="feature-box-content border-start border-color-extra-medium-gray ps-40px pe-40px lg-ps-15px lg-pe-15px last-paragraph-no-margin">
+                <h2 class="alt-font text-dark-gray fw-700 ls-minus-1px mb-0">
+                  500+
+                </h2>
                 <span
                   class="text-dark-gray fw-500 fs-20 xs-fs-18 alt-font ls-minus-05px">
-                  happy families
+                  Happy Families
                 </span>
-                <p class="text-light-opacity">Lorem ipsum dolor amet</p>
               </div>
-              <div class="feature-box-overlay bg-base-color"></div>
+              <!-- <div class="feature-box-overlay bg-base-color"></div> -->
             </div>
           </div>
           <!-- end fancy text box item -->
           <!-- start fancy text box item -->
           <div class="col-lg-6 col-md-8 fancy-text-box-style-02 md-mb-30px">
             <div
-              class="feature-box feature-box-left-icon-middle h-100 bg-white hover-box dark-hover border-radius-6px ps-4 pe-4 pt-9 pb-9 box-shadow-extra-large box-shadow-extra-large-hover overflow-hidden">
+              class="feature-box feature-box-left-icon-middle h-100 bg-white hover-box border-radius-6px ps-4 pe-4 pt-9 pb-9 box-shadow-extra-large box-shadow-extra-large-hover overflow-hidden">
               <div
                 class="feature-box-icon ms-40px me-40px lg-ms-15px lg-me-15px">
-                <h2 class="alt-font text-dark-gray fw-700 ls-minus-1px mb-0">
-                  1,000+
-                </h2>
+                <img
+                  src="images/animated-icons/mentorship.gif"
+                  class="h-100px"
+                  alt="" />
               </div>
               <div
                 class="feature-box-content border-start border-color-extra-medium-gray ps-40px pe-40px lg-ps-15px lg-pe-15px last-paragraph-no-margin">
+                <h2 class="alt-font text-dark-gray fw-700 ls-minus-1px mb-0">
+                  1,000+
+                </h2>
                 <span
-                  class="text-dark-gray fw-500 fs-20 xs-fs-18 alt-font ls-minus-05px"
-                  >consultations delivered
+                  class="text-dark-gray fw-500 fs-20 xs-fs-18 alt-font ls-minus-05px">
+                  Consultations Delivered
                 </span>
-                <p class="text-light-opacity">Lorem ipsum dolor amet</p>
+                <!-- <p class="text-light-opacity">Lorem ipsum dolor amet</p> -->
               </div>
-              <div class="feature-box-overlay bg-base-color"></div>
+              <!-- <div class="feature-box-overlay bg-base-color"></div> -->
             </div>
           </div>
           <!-- end fancy text box item -->
           <!-- start fancy text box item -->
           <div class="col-lg-6 col-md-8 fancy-text-box-style-02">
             <div
-              class="feature-box feature-box-left-icon-middle h-100 bg-white hover-box dark-hover border-radius-6px ps-4 pe-4 pt-9 pb-9 box-shadow-extra-large box-shadow-extra-large-hover overflow-hidden">
+              class="feature-box feature-box-left-icon-middle h-100 bg-white hover-box border-radius-6px ps-4 pe-4 pt-9 pb-9 box-shadow-extra-large box-shadow-extra-large-hover overflow-hidden">
               <div
                 class="feature-box-icon ms-40px me-40px lg-ms-15px lg-me-15px">
-                <h2 class="alt-font text-dark-gray fw-700 ls-minus-1px mb-0">
-                  100
-                </h2>
+                <img
+                  src="images/animated-icons/building.gif"
+                  class="h-100px"
+                  alt="" />
               </div>
               <div
                 class="feature-box-content border-start border-color-extra-medium-gray ps-40px pe-40px lg-ps-15px lg-pe-15px last-paragraph-no-margin">
+                <h2 class="alt-font text-dark-gray fw-700 ls-minus-1px mb-0">
+                  100+
+                </h2>
+
                 <span class="text-dark-gray fw-500 fs-20 alt-font ls-minus-05px"
-                  >projects successfully handled
+                  >Projects Handled
                 </span>
-                <p class="text-light-opacity">Lorem ipsum dolor amet</p>
+                <!-- <p class="text-light-opacity">Lorem ipsum dolor amet</p> -->
               </div>
-              <div class="feature-box-overlay bg-base-color"></div>
+              <!-- <div class="feature-box-overlay bg-base-color"></div> -->
             </div>
           </div>
           <!-- end fancy text box item -->
-        </div>
-      </div>
-    </section>
-    <!-- end section -->
-
-    <!-- start section -->
-    <section
-      class="position-relative pt-3 sm-pt-50px overlap-height background-no-repeat background-position-left-top"
-      style="background-image: url('images/demo-it-business-about-bg.jpg')">
-      <div class="container overlap-gap-section">
-        <div class="row align-items-center mb-6">
-          <div class="col-lg-6 md-mb-50px">
-            <div
-              class="d-flex flex-column box-shadow-quadruple-large border-radius-8px overflow-hidden"
-              data-anime='{ "translateY": [0, 0], "perspective": [1200,1200], "scale": [1.1, 1], "rotateX": [50, 0], "opacity": [0,0.7], "duration": 800, "delay": 200, "staggervalue": 300, "easing": "easeOutQuad" }'
-              data-shadow-animation="true"
-              data-bottom-top="transform: translateY(50px)"
-              data-top-bottom="transform: translateY(-50px)">
-              <div
-                class="row row-cols-1 row-cols-sm-2 justify-content-center m-0">
-                <div
-                  class="col p-10 lg-p-8 text-center border-bottom border-end xs-border-end-0 border-color-extra-medium-gray bg-white text-center last-paragraph-no-margin">
-                  <i
-                    class="line-icon-Medal-2 icon-extra-large text-base-color mb-15px d-block"></i>
-                  <span
-                    class="fs-14 fw-700 text-dark-gray text-uppercase lh-20 d-inline-block"
-                    >Award winning<br />agency</span
-                  >
-                </div>
-                <div
-                  class="col p-10 lg-p-8 text-center border-bottom border-color-extra-medium-gray bg-white text-center last-paragraph-no-margin">
-                  <i
-                    class="line-icon-Knight icon-extra-large text-base-color mb-15px d-block"></i>
-                  <span
-                    class="fs-14 fw-700 text-dark-gray text-uppercase lh-20 d-inline-block"
-                    >Experience<br />strategy</span
-                  >
-                </div>
-                <div
-                  class="col p-10 lg-p-8 text-center border-end xs-border-end-0 xs-border-bottom border-color-extra-medium-gray bg-white text-center last-paragraph-no-margin">
-                  <i
-                    class="line-icon-Gear icon-extra-large text-base-color mb-15px d-block"></i>
-                  <span
-                    class="fs-14 fw-700 text-dark-gray text-uppercase lh-20 d-inline-block"
-                    >World-class<br />services</span
-                  >
-                </div>
-                <div
-                  class="col p-10 lg-p-8 text-center bg-white text-center last-paragraph-no-margin">
-                  <i
-                    class="line-icon-Management icon-extra-large text-base-color mb-15px d-block"></i>
-                  <span
-                    class="fs-14 fw-700 text-dark-gray text-uppercase lh-20 d-inline-block"
-                    >Grow your<br />business</span
-                  >
-                </div>
-              </div>
-            </div>
-          </div>
-          <div
-            class="col-xl-5 offset-xl-1 col-lg-6"
-            data-anime='{ "el": "childs", "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-            <span
-              class="bg-solitude-blue ps-25px pe-25px mb-20px text-uppercase text-base-color fs-12 lh-40 fw-700 border-radius-100px bg-gradient-very-light-gray-transparent d-inline-flex"
-              ><i class="bi bi-award fs-16 me-5px"></i>Awards &
-              Recognition</span
-            >
-
-            <h3 class="text-dark-gray fw-700 ls-minus-1px md-w-80 sm-w-100">
-              Provide advanced business solutions.
-            </h3>
-            <div class="mb-40px sm-mb-30px">
-              <!-- start features box item -->
-              <div class="icon-with-text-style-08 mb-25px">
-                <div
-                  class="feature-box feature-box-left-icon-middle overflow-hidden">
-                  <div
-                    class="feature-box-icon feature-box-icon-rounded w-50px h-50px rounded-circle bg-very-light-gray me-20px text-center">
-                    <i class="fa-solid fa-check fs-16 text-base-color"></i>
-                  </div>
-                  <div class="feature-box-content last-paragraph-no-margin">
-                    <span class="fs-17 fw-600 text-dark-gray"
-                      >Make your business stand out.</span
-                    >
-                    <p>Lorem ipsum is simply dummy printing.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- end features box item -->
-              <!-- start features box item -->
-              <div class="icon-with-text-style-08">
-                <div
-                  class="feature-box feature-box-left-icon-middle overflow-hidden">
-                  <div
-                    class="feature-box-icon feature-box-icon-rounded w-50px h-50px rounded-circle bg-very-light-gray me-20px text-center">
-                    <i class="fa-solid fa-check fs-16 text-base-color"></i>
-                  </div>
-                  <div class="feature-box-content last-paragraph-no-margin">
-                    <span class="fs-17 fw-600 text-dark-gray"
-                      >Increase your conversion rate.</span
-                    >
-                    <p>Lorem ipsum is simply dummy printing.</p>
-                  </div>
-                </div>
-              </div>
-              <!-- end features box item -->
-            </div>
-            <a
-              href="#"
-              class="btn btn-extra-large btn-gradient-purple-pink btn-hover-animation-switch btn-rounded btn-box-shadow btn-icon-left me-30px">
-              <span>
-                <span class="btn-text">Explore services</span>
-                <span class="btn-icon"
-                  ><i class="feather icon-feather-briefcase"></i
-                ></span>
-                <span class="btn-icon"
-                  ><i class="feather icon-feather-briefcase"></i
-                ></span>
-              </span>
-            </a>
-            <!-- <a
-              href="#"
-              class="btn btn-link btn-hover-animation-switch btn-extra-large text-dark-gray btn-icon-left align-middle fw-600 p-0 xs-mt-20px xs-mb-20px">
-              <span>
-                <span class="btn-text">Quick contact</span>
-                <span class="btn-icon"
-                  ><i class="feather icon-feather-mail"></i
-                ></span>
-                <span class="btn-icon"
-                  ><i class="feather icon-feather-mail"></i
-                ></span>
-              </span>
-            </a> -->
-          </div>
-        </div>
-        <div class="row">
-          <div
-            class="col-12 text-center"
-            data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
-            <i
-              class="bi bi-envelope text-dark-gray d-inline-block align-middle icon-extra-medium me-10px md-m-5px"></i>
-            <div
-              class="fs-18 text-dark-gray d-inline-block align-middle fw-500">
-              Save your precious time and effort spent for finding a solution.
-              <a
-                href="contact.html"
-                class="text-dark-gray text-decoration-line-bottom fw-700"
-                >Contact us now</a
-              >
-            </div>
-          </div>
         </div>
       </div>
     </section>
@@ -602,7 +504,7 @@
     <section class="pb-3">
       <div class="container-fluid p-0">
         <div
-          class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 g-0"
+          class="row row-cols-1 row-cols-lg-4 row-cols-sm-2 g-0 justify-content-center gap-3"
           data-anime='{ "el": "childs", "translateY": [30, 0], "rotateX":[30, 0], "opacity": [0,1], "duration": 600, "delay":0, "staggervalue": 300, "easing": "easeOutQuad" }'>
           <!-- start team member item -->
           <div class="col team-style-10 md-ps-15px md-pe-15px md-mb-30px">
@@ -612,17 +514,14 @@
                 class="w-100"
                 alt="" />
               <img
-                src="images/our-img/propfile_photo.jpg"
+                src="images/our-img/propfile_photo_2.jpg"
                 class="hover-switch-image"
                 alt="" />
               <figcaption class="w-100 h-100 d-flex flex-wrap">
                 <div
                   class="social-icon d-flex flex-column flex-shrink-1 mb-auto p-30px ms-auto">
-                  <a
-                    href="https://www.twitter.com/"
-                    target="_blank"
-                    class="text-white bg-dark-gray"
-                    ><i class="fa-brands fa-twitter icon-small"></i
+                  <a href="" target="_blank" class="text-white bg-dark-gray"
+                    ><i class="fa-brands fa-linkedin icon-small"></i
                   ></a>
                 </div>
                 <div
@@ -632,19 +531,19 @@
                     >Jeremy dupont</span
                   >
                   <span class="member-designation fs-15 lh-20 ms-auto alt-font"
-                    >Designer</span
+                    >Founder</span
                   >
                 </div>
               </figcaption>
             </figure>
           </div>
           <!-- end team member item -->
+
           <!-- start team member item -->
-          <div
-            class="col team-style-10 mt-20px md-mt-0 md-ps-15px md-pe-15px md-mb-30px">
+          <div class="col team-style-10 md-ps-15px md-pe-15px md-mb-30px">
             <figure class="mb-0 position-relative overflow-hidden">
               <img
-                src="images/our-img/propfile_photo.jpg"
+                src="images/our-img/propfile_photo_2.jpg"
                 class="w-100"
                 alt="" />
               <img
@@ -654,21 +553,18 @@
               <figcaption class="w-100 h-100 d-flex flex-wrap">
                 <div
                   class="social-icon d-flex flex-column flex-shrink-1 mb-auto p-30px ms-auto">
-                  <a
-                    href="https://www.facebook.com/"
-                    target="_blank"
-                    class="text-white bg-dark-gray"
-                    ><i class="fa-brands fa-facebook-f icon-small"></i
+                  <a href="" target="_blank" class="text-white bg-dark-gray"
+                    ><i class="fa-brands fa-linkedin icon-small"></i
                   ></a>
                 </div>
                 <div
                   class="team-member-strip w-100 mt-auto d-flex align-items-center pt-15px pb-15px ps-30px pe-30px bg-white">
                   <span
                     class="team-member-name fw-600 alt-font text-dark-gray fs-18 ls-minus-05px"
-                    >Matthew taylor</span
+                    >Jeremy dupont</span
                   >
                   <span class="member-designation fs-15 lh-20 ms-auto alt-font"
-                    >Writer</span
+                    >Developer</span
                   >
                 </div>
               </figcaption>
@@ -676,67 +572,28 @@
           </div>
           <!-- end team member item -->
           <!-- start team member item -->
-          <div
-            class="col team-style-10 mt-40px md-mt-0 md-ps-15px md-pe-15px sm-mb-30px">
+          <div class="col team-style-10 md-ps-15px md-pe-15px md-mb-30px">
             <figure class="mb-0 position-relative overflow-hidden">
               <img
                 src="images/our-img/propfile_photo.jpg"
                 class="w-100"
                 alt="" />
               <img
-                src="images/our-img/propfile_photo.jpg"
+                src="images/our-img/propfile_photo_2.jpg"
                 class="hover-switch-image"
                 alt="" />
               <figcaption class="w-100 h-100 d-flex flex-wrap">
                 <div
                   class="social-icon d-flex flex-column flex-shrink-1 mb-auto p-30px ms-auto">
-                  <a
-                    href="https://www.linkedin.com/"
-                    target="_blank"
-                    class="text-white bg-dark-gray"
-                    ><i class="fa-brands fa-linkedin-in icon-small"></i
+                  <a href="" target="_blank" class="text-white bg-dark-gray"
+                    ><i class="fa-brands fa-linkedin icon-small"></i
                   ></a>
                 </div>
                 <div
                   class="team-member-strip w-100 mt-auto d-flex align-items-center pt-15px pb-15px ps-30px pe-30px bg-white">
                   <span
                     class="team-member-name fw-600 alt-font text-dark-gray fs-18 ls-minus-05px"
-                    >Herman miller</span
-                  >
-                  <span class="member-designation fs-15 lh-20 ms-auto alt-font"
-                    >Manager</span
-                  >
-                </div>
-              </figcaption>
-            </figure>
-          </div>
-          <!-- end team member item -->
-          <!-- start team member item -->
-          <div class="col team-style-10 mt-60px md-mt-0 md-ps-15px md-pe-15px">
-            <figure class="mb-0 position-relative overflow-hidden">
-              <img
-                src="images/our-img/propfile_photo.jpg"
-                class="w-100"
-                alt="" />
-              <img
-                src="images/our-img/propfile_photo.jpg"
-                class="hover-switch-image"
-                alt="" />
-              <figcaption class="w-100 h-100 d-flex flex-wrap">
-                <div
-                  class="social-icon d-flex flex-column flex-shrink-1 mb-auto p-30px ms-auto">
-                  <a
-                    href="https://www.instagram.com/"
-                    target="_blank"
-                    class="text-white bg-dark-gray"
-                    ><i class="fa-brands fa-instagram icon-small"></i
-                  ></a>
-                </div>
-                <div
-                  class="team-member-strip w-100 mt-auto d-flex align-items-center pt-15px pb-15px ps-30px pe-30px bg-white">
-                  <span
-                    class="team-member-name fw-600 alt-font text-dark-gray fs-18 ls-minus-05px"
-                    >Jessica dover</span
+                    >Jeremy dupont</span
                   >
                   <span class="member-designation fs-15 lh-20 ms-auto alt-font"
                     >Designer</span
@@ -759,7 +616,7 @@
             data-anime='{ "translateY": [30, 0], "opacity": [0,1], "duration": 600, "delay": 0, "staggervalue": 300, "easing": "easeOutQuad" }'>
             <span
               class="text-dark-gray fw-600 fs-16 text-uppercase border-1 pb-5px border-bottom border-color-extra-medium-gray text-dark-gray"
-              >Join the 10,000+ companies using crafto</span
+              >Join the PropAdvisor Team</span
             >
           </div>
         </div>
@@ -865,12 +722,12 @@
                 >
                 <a href="tel:12345678910">+91 99999 88888</a>
               </div>
-              <div class="col-lg-5 col-6">
+              <div class="col-lg-6 col-6">
                 <span
                   class="alt-font fs-14 text-uppercase d-block text-white ls-1px lh-24"
                   >Send a message</span
                 >
-                <a href="mailto:info@domain.com">info@domain.com</a>
+                <a href="mailto:info@domain.com">info@propadvisor.co.in</a>
               </div>
             </div>
           </div>
@@ -880,13 +737,13 @@
               >Company</span
             >
             <ul>
-              <li><a href="demo-branding-agency.html">Home</a></li>
-              <li><a href="demo-branding-agency-about.html">Agency</a></li>
-              <li><a href="demo-branding-agency-services.html">Services</a></li>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="about.html">About</a></li>
+              <li><a href="services.html">Services</a></li>
               <li>
-                <a href="demo-branding-agency-portfolio.html">Portfolio</a>
+                <a href="projects.html">Projects</a>
               </li>
-              <li><a href="demo-branding-agency-contact.html">Contact</a></li>
+              <li><a href="contact.html">Contact</a></li>
             </ul>
           </div>
           <div class="col-md-2 col-6 order-3 order-md-3">
@@ -896,26 +753,24 @@
             >
             <ul>
               <li>
-                <a href="https://www.pinterest.com/" target="_blank"
-                  >Pinterest</a
-                >
+                <a href="" target="_blank">Blogs</a>
               </li>
               <li>
-                <a href="http://www.twitter.com" target="_blank">Twitter</a>
+                <a href="" target="_blank">Career</a>
               </li>
               <li>
-                <a href="http://www.dribbble.com" target="_blank">Dribbble</a>
+                <a href="" target="_blank">Privacy Policy </a>
               </li>
               <li>
-                <a href="http://www.instagram.com" target="_blank">Instagram</a>
+                <a href="" target="_blank">Disclaimer </a>
               </li>
               <li>
-                <a href="http://www.behance.com" target="_blank">Behance</a>
+                <a href="" target="_blank">Terms & Condition</a>
               </li>
             </ul>
           </div>
           <div class="col-md-2 order-1 order-md-4 sm-mb-30px">
-            <a href="demo-branding-agency.html" class="footer-logo"
+            <a href="index.html" class="footer-logo"
               ><img
                 src="images/our-img/PropAdvisor_Logo.png"
                 data-at2x="images/our-img/PropAdvisor_Logo.png"

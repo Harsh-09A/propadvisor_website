@@ -1,0 +1,21 @@
+/* MY CSS */
+.about_overflow_text {
+  height: 400px !important;
+
+  overflow-y: scroll;
+}
+#zero_top {
+  padding-top: 0px !important;
+}
+
+.btn-gold {
+  background-color: var(--prop-theme);
+  color: var(--white);
+}
+
+.btn.btn-gold:hover,
+.btn.btn-gold :active {
+  background-color: transparent;
+  border-color: var(--prop-theme);
+  color: var(--dark-gray);
+}
