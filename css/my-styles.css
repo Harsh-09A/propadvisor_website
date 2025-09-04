@@ -29,3 +29,12 @@ a.text-gold:hover {
 .case-study-bullets li {
   list-style: disc;
 }
+
+.navbar-nav .active {
+  color: var(--prop-theme);
+}
+.navbar .navbar-nav .nav-item:hover .nav-link,
+.navbar .navbar-nav .nav-item.active .nav-link {
+  opacity: 0.6;
+  color: var(--prop-theme) !important;
+}
