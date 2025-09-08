@@ -44,3 +44,16 @@ a.text-gold:hover {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
+.social-icon-style-10 {
+  ul {
+    li {
+      a {
+        color: var(--white);
+        &:hover {
+          color: var(--base-color) !important;
+        }
+      }
+    }
+  }
+}
