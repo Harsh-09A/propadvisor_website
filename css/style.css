@@ -11833,6 +11833,12 @@ blockquote footer {
   background-size: 200% auto;
   color: var(--white);
 }
+
+.btn-gradient-prop-theme {
+  background-image: linear-gradient(to right, #deb269, #c59e5d, #deb269);
+  background-size: 200% auto;
+  color: var(--white);
+}
 .btn-dual .btn {
   margin-left: 10px;
   margin-right: 10px;
