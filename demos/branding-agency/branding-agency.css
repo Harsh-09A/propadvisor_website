@@ -108,8 +108,14 @@ header .navbar-brand img {
   font-weight: 500;
 }
 /* text gradient color */
-.text-gradient-base-color {
+/* .text-gradient-base-color {
   background-image: linear-gradient(to right, #e97522 0%, #1ea3b1 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+.text-gradient-base-color {
+  background-image: linear-gradient(to right, #deb269 0%, #c59e5d 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }

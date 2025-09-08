@@ -38,3 +38,9 @@ a.text-gold:hover {
   opacity: 0.6;
   color: var(--prop-theme) !important;
 }
+
+.text-gradient-base-color {
+  background-image: linear-gradient(to right, #deb269 0%, #c59e5d 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
