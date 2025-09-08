@@ -7488,7 +7488,7 @@ header.sticky.sticky-active .navbar-brand .default-logo {
   width: 0;
 }
 header.sticky.sticky-active [data-header-hover="dark"] {
-  background-color: var(--dark-gray) !important;
+  background-color: var(--black) !important;
 }
 header.sticky.sticky-active
   [data-header-hover="dark"]
