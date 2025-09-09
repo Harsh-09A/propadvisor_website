@@ -57,3 +57,17 @@ a.text-gold:hover {
     }
   }
 }
+
+@media screen and (max-width: 600px) {
+  .home_image_1 img,
+  .home_image_2 img {
+    display: none;
+  }
+
+  .home_image_3 img {
+    content: url("../images/latest-imgs/home_members_2.gif");
+  }
+}
+.footer_text-white a {
+  color: #fff;
+}
