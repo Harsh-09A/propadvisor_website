@@ -71,3 +71,10 @@ a.text-gold:hover {
 .footer_text-white a {
   color: #fff;
 }
+
+@media screen and (max-width: 600px) {
+  .home-slide-text {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
